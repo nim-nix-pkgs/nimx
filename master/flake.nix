@@ -11,6 +11,7 @@
   inputs.src-nimx-master.ref   = "refs/heads/master";
   inputs.src-nimx-master.owner = "yglukhov";
   inputs.src-nimx-master.repo  = "nimx";
+  inputs.src-nimx-master.dir   = "";
   inputs.src-nimx-master.type  = "github";
   
   inputs."sdl2".owner = "nim-nix-pkgs";
