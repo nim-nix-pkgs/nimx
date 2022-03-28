@@ -11,7 +11,6 @@
   inputs.src-nimx-master.ref   = "refs/heads/master";
   inputs.src-nimx-master.owner = "yglukhov";
   inputs.src-nimx-master.repo  = "nimx";
-  inputs.src-nimx-master.dir   = "";
   inputs.src-nimx-master.type  = "github";
   
   inputs."sdl2".owner = "nim-nix-pkgs";
@@ -86,6 +85,22 @@
   inputs."kiwi".inputs.nixpkgs.follows = "nixpkgs";
   inputs."kiwi".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
+  inputs."github.com/yglukhov/ttf".owner = "nim-nix-pkgs";
+  inputs."github.com/yglukhov/ttf".ref   = "master";
+  inputs."github.com/yglukhov/ttf".repo  = "github.com/yglukhov/ttf";
+  inputs."github.com/yglukhov/ttf".dir   = "";
+  inputs."github.com/yglukhov/ttf".type  = "github";
+  inputs."github.com/yglukhov/ttf".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/yglukhov/ttf".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."github.com/yglukhov/async_http_request".owner = "nim-nix-pkgs";
+  inputs."github.com/yglukhov/async_http_request".ref   = "master";
+  inputs."github.com/yglukhov/async_http_request".repo  = "github.com/yglukhov/async_http_request";
+  inputs."github.com/yglukhov/async_http_request".dir   = "";
+  inputs."github.com/yglukhov/async_http_request".type  = "github";
+  inputs."github.com/yglukhov/async_http_request".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/yglukhov/async_http_request".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
   inputs."jsbind".owner = "nim-nix-pkgs";
   inputs."jsbind".ref   = "master";
   inputs."jsbind".repo  = "jsbind";
@@ -102,6 +117,22 @@
   inputs."rect_packer".inputs.nixpkgs.follows = "nixpkgs";
   inputs."rect_packer".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
+  inputs."github.com/yglukhov/android".owner = "nim-nix-pkgs";
+  inputs."github.com/yglukhov/android".ref   = "master";
+  inputs."github.com/yglukhov/android".repo  = "github.com/yglukhov/android";
+  inputs."github.com/yglukhov/android".dir   = "";
+  inputs."github.com/yglukhov/android".type  = "github";
+  inputs."github.com/yglukhov/android".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/yglukhov/android".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."darwin".owner = "nim-nix-pkgs";
+  inputs."darwin".ref   = "master";
+  inputs."darwin".repo  = "darwin";
+  inputs."darwin".dir   = "master";
+  inputs."darwin".type  = "github";
+  inputs."darwin".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."darwin".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
   inputs."os_files".owner = "nim-nix-pkgs";
   inputs."os_files".ref   = "master";
   inputs."os_files".repo  = "os_files";
@@ -109,6 +140,14 @@
   inputs."os_files".type  = "github";
   inputs."os_files".inputs.nixpkgs.follows = "nixpkgs";
   inputs."os_files".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."github.com/tormund/nester".owner = "nim-nix-pkgs";
+  inputs."github.com/tormund/nester".ref   = "master";
+  inputs."github.com/tormund/nester".repo  = "github.com/tormund/nester";
+  inputs."github.com/tormund/nester".dir   = "";
+  inputs."github.com/tormund/nester".type  = "github";
+  inputs."github.com/tormund/nester".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/tormund/nester".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   inputs."nimwebp".owner = "nim-nix-pkgs";
   inputs."nimwebp".ref   = "master";
