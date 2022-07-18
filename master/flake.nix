@@ -85,21 +85,21 @@
   inputs."kiwi".inputs.nixpkgs.follows = "nixpkgs";
   inputs."kiwi".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
-  inputs."github.com/yglukhov/ttf".owner = "nim-nix-pkgs";
-  inputs."github.com/yglukhov/ttf".ref   = "master";
-  inputs."github.com/yglukhov/ttf".repo  = "github.com/yglukhov/ttf";
-  inputs."github.com/yglukhov/ttf".dir   = "";
-  inputs."github.com/yglukhov/ttf".type  = "github";
-  inputs."github.com/yglukhov/ttf".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."github.com/yglukhov/ttf".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."github-yglukhov-ttf".owner = "nim-nix-pkgs";
+  inputs."github-yglukhov-ttf".ref   = "master";
+  inputs."github-yglukhov-ttf".repo  = "github-yglukhov-ttf";
+  inputs."github-yglukhov-ttf".dir   = "0_2_12";
+  inputs."github-yglukhov-ttf".type  = "github";
+  inputs."github-yglukhov-ttf".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github-yglukhov-ttf".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
-  inputs."github.com/yglukhov/async_http_request".owner = "nim-nix-pkgs";
-  inputs."github.com/yglukhov/async_http_request".ref   = "master";
-  inputs."github.com/yglukhov/async_http_request".repo  = "github.com/yglukhov/async_http_request";
-  inputs."github.com/yglukhov/async_http_request".dir   = "";
-  inputs."github.com/yglukhov/async_http_request".type  = "github";
-  inputs."github.com/yglukhov/async_http_request".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."github.com/yglukhov/async_http_request".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."github-yglukhov-async_http_request".owner = "nim-nix-pkgs";
+  inputs."github-yglukhov-async_http_request".ref   = "master";
+  inputs."github-yglukhov-async_http_request".repo  = "github-yglukhov-async_http_request";
+  inputs."github-yglukhov-async_http_request".dir   = "master";
+  inputs."github-yglukhov-async_http_request".type  = "github";
+  inputs."github-yglukhov-async_http_request".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github-yglukhov-async_http_request".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   inputs."jsbind".owner = "nim-nix-pkgs";
   inputs."jsbind".ref   = "master";
@@ -117,13 +117,13 @@
   inputs."rect_packer".inputs.nixpkgs.follows = "nixpkgs";
   inputs."rect_packer".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
-  inputs."github.com/yglukhov/android".owner = "nim-nix-pkgs";
-  inputs."github.com/yglukhov/android".ref   = "master";
-  inputs."github.com/yglukhov/android".repo  = "github.com/yglukhov/android";
-  inputs."github.com/yglukhov/android".dir   = "";
-  inputs."github.com/yglukhov/android".type  = "github";
-  inputs."github.com/yglukhov/android".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."github.com/yglukhov/android".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."github-yglukhov-android".owner = "nim-nix-pkgs";
+  inputs."github-yglukhov-android".ref   = "master";
+  inputs."github-yglukhov-android".repo  = "github-yglukhov-android";
+  inputs."github-yglukhov-android".dir   = "master";
+  inputs."github-yglukhov-android".type  = "github";
+  inputs."github-yglukhov-android".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github-yglukhov-android".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   inputs."darwin".owner = "nim-nix-pkgs";
   inputs."darwin".ref   = "master";
@@ -141,13 +141,13 @@
   inputs."os_files".inputs.nixpkgs.follows = "nixpkgs";
   inputs."os_files".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
-  inputs."github.com/tormund/nester".owner = "nim-nix-pkgs";
-  inputs."github.com/tormund/nester".ref   = "master";
-  inputs."github.com/tormund/nester".repo  = "github.com/tormund/nester";
-  inputs."github.com/tormund/nester".dir   = "";
-  inputs."github.com/tormund/nester".type  = "github";
-  inputs."github.com/tormund/nester".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."github.com/tormund/nester".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."github-tormund-nester".owner = "nim-nix-pkgs";
+  inputs."github-tormund-nester".ref   = "master";
+  inputs."github-tormund-nester".repo  = "github-tormund-nester";
+  inputs."github-tormund-nester".dir   = "master";
+  inputs."github-tormund-nester".type  = "github";
+  inputs."github-tormund-nester".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github-tormund-nester".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   inputs."nimwebp".owner = "nim-nix-pkgs";
   inputs."nimwebp".ref   = "master";
