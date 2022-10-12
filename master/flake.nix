@@ -16,7 +16,7 @@
   inputs."sdl2".owner = "nim-nix-pkgs";
   inputs."sdl2".ref   = "master";
   inputs."sdl2".repo  = "sdl2";
-  inputs."sdl2".dir   = "v2_0_3";
+  inputs."sdl2".dir   = "v2_0_4";
   inputs."sdl2".type  = "github";
   inputs."sdl2".inputs.nixpkgs.follows = "nixpkgs";
   inputs."sdl2".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
@@ -32,7 +32,7 @@
   inputs."nimsl".owner = "nim-nix-pkgs";
   inputs."nimsl".ref   = "master";
   inputs."nimsl".repo  = "nimsl";
-  inputs."nimsl".dir   = "v0_3_2";
+  inputs."nimsl".dir   = "v0_3_3";
   inputs."nimsl".type  = "github";
   inputs."nimsl".inputs.nixpkgs.follows = "nixpkgs";
   inputs."nimsl".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
